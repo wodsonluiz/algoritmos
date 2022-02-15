@@ -1,4 +1,4 @@
-# algoritmos
+# Algoritmos
 
 ### O objetivo desse projeto, é escrever e compreender algoritimos de forma natural e feliz :bulb:
 
