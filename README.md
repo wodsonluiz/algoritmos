@@ -11,7 +11,10 @@ Referência: https://www.amazon.com.br/Entendendo-Algoritmos-Ilustrado-Programad
 | Ordenação | :white_check_mark: |
 | Recursão | :white_check_mark: |
 | Recursão com o uso de pilha | :white_check_mark: |
+| Quicksort | :white_check_mark: |
 
+
+### Provas por indução
 ```
 Prova por indução representam uma maneira de mostrar que seu algoritmo funciona. 
 Cada prova por indução segue dois passos: o caso-base e o caso indutivo. Imagine que eu 
