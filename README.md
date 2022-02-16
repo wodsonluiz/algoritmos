@@ -2,8 +2,6 @@
 
 ### O objetivo desse projeto, é escrever e compreender algoritimos de forma natural e feliz :bulb:
 
-Referência: https://www.amazon.com.br/Entendendo-Algoritmos-Ilustrado-Programadores-Curiosos/dp/8575225634
-
 
 | Algoritimo | Status 
 | :---: | :---: | 
@@ -24,3 +22,5 @@ Assim, se estiver no degrau 2, poderei subir para o degrau 3. Esse é o caso ind
 Já para o caso-base, falerei que minhas pernas estão no degrau 1 e que, portanto, sou 
 capaz de subir a escada inteira, um degrau de cada vez.
 ```
+
+Referência: https://www.amazon.com.br/Entendendo-Algoritmos-Ilustrado-Programadores-Curiosos/dp/8575225634
