@@ -10,6 +10,7 @@
 | Recursão | :white_check_mark: |
 | Recursão com o uso de pilha | :white_check_mark: |
 | Quicksort | :white_check_mark: |
+| Tabelas Hash | :white_check_mark: |
 
 
 ### Provas por indução
