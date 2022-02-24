@@ -13,14 +13,22 @@ grafo["jony"] = []
 fila_de_pesquisa = deque()
 fila_de_pesquisa += grafo["voce"]
 
-def pessoa_e_vendedor(pessoa):
-    return pessoa[-1] == 'm'
+def pessoa_e_vendedora(nome):
+    return nome[-1] == 'm'
 
-while fila_de_pesquisa:
-    pessoa = fila_de_pesquisa.popleft()
-    if pessoa_e_vendedor(pessoa):
-        print("vender de manga", pessoa)
-        break
-    else:
-        print("nao e vendedor")
-        fila_de_pesquisa += grafo[pessoa]
+def pesqusia(nome):
+    fila_de_pesquisa = deque()
+    fila_de_pesquisa += grafo[nome]
+    verificadas = []
+    while fila_de_pesquisa:
+        pessoa = fila_de_pesquisa.popleft()
+        if not pessoa in verificadas:
+            if pessoa_e_vendedora(pessoa):
+                print(pessoa)
+                return True
+            else:
+                fila_de_pesquisa += grafo[pessoa]
+                verificadas.append(pessoa)
+    return False
+
+print(pesqusia("claire"))
